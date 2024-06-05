@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "538636107041",
+    "project_id": "courseflutter-4cc52",
+    "storage_bucket": "courseflutter-4cc52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538636107041:android:da6f766909b29375a5d260",
+        "android_client_info": {
+          "package_name": "com.example.ropulva_task_app_assesment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538636107041-msj3qsloic1vq4t17a4g3en83ivpudhi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVons-lslumzOKVSvbqxdeqiz4UXtNv0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538636107041-msj3qsloic1vq4t17a4g3en83ivpudhi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
