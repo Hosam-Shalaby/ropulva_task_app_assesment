@@ -15,7 +15,6 @@ class FilteredTaskListAndroid extends StatelessWidget {
       builder: (context, state) {
         List<TaskModel> filteredTasks = [];
 
-        // تصفية قائمة المهام بناءً على الفلتر المحدد
         if (state is SuccessState) {
           if (filter == TaskFilter.all) {
             filteredTasks = state.tasks;

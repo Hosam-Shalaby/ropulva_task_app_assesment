@@ -15,7 +15,7 @@ class HomeScreenAndroid extends StatelessWidget {
     return BlocBuilder<HomeCubit, HomeState>(
       builder: (context, state) {
         return DefaultTabController(
-          length: 5, // عدد عناصر التبويب
+          length: 5,
           child: Scaffold(
             appBar: PreferredSize(
               preferredSize: Size.fromHeight(80.h),
@@ -30,10 +30,9 @@ class HomeScreenAndroid extends StatelessWidget {
                     labelPadding: EdgeInsets.zero,
                     dividerColor: Colors.transparent,
                     indicator: BoxDecoration(
-                      color: ConstantColors.green, // تعيين لون الخلفية للمؤشر
+                      color: ConstantColors.green,
                       borderRadius: BorderRadius.circular(10.r),
                     ),
-                    // unselectedLabelColor: const Color.fromARGB(255, 18, 109, 60),
                     tabs: const [
                       TabBarItemAndroid(title: 'All'),
                       TabBarItemAndroid(title: 'Not Done'),

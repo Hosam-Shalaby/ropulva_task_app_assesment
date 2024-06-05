@@ -30,29 +30,27 @@ class EditTaskScreenAndroid extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
-             SizedBox(
+            SizedBox(
               height: 20.h,
             ),
-            TextField(              style: const TextStyle(color: Colors.black),
-
+            TextField(
+              style: const TextStyle(color: Colors.black),
               controller: taskController,
-              decoration:  InputDecoration(
+              decoration: InputDecoration(
                 labelText: 'Task title',
                 border: OutlineInputBorder(
-                    // borderSide: BorderSide.none,
                     borderRadius: BorderRadius.all(Radius.circular(15.r))),
               ),
             ),
-             SizedBox(
-              height: 35.h,
+            SizedBox(
+              height: 35.h
             ),
-            TextField(              style: const TextStyle(color: Colors.black),
-
+            TextField(
+              style: const TextStyle(color: Colors.black),
               controller: dateController,
-              decoration:  InputDecoration(
+              decoration: InputDecoration(
                 labelText: 'Due Date',
                 border: OutlineInputBorder(
-                    // borderSide: BorderSide.none,
                     borderRadius: BorderRadius.all(Radius.circular(15.r))),
               ),
               onTap: () async {

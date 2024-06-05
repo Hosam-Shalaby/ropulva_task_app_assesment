@@ -17,9 +17,8 @@ class AddTaskScreenDesktop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 320.h,
+      height: 280.h,
       width: 420.0,
-      // padding: const EdgeInsets.all(5),
       child: Padding(
         padding: const EdgeInsets.all(15.0),
         child: Column(
@@ -50,7 +49,7 @@ class AddTaskScreenDesktop extends StatelessWidget {
               height: 40.h,
               child: TextField(
                 style: const TextStyle(
-                    color: Colors.black), // تغيير لون النص للون أزرق
+                    color: Colors.black), 
 
                 controller: taskController,
                 decoration: InputDecoration(
@@ -66,7 +65,7 @@ class AddTaskScreenDesktop extends StatelessWidget {
             ),
             SizedBox(height: 9.h),
             SizedBox(
-              height: 40,
+              height: 40.h,
               child: TextField(
                 style: const TextStyle(fontSize: 25, color: Colors.black),
                 controller: dateController,

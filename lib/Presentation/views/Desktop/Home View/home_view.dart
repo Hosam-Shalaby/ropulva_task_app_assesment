@@ -15,7 +15,7 @@ class HomeScreenDesktop extends StatelessWidget {
     return BlocBuilder<HomeCubit, HomeState>(
       builder: (context, state) {
         return DefaultTabController(
-          length: 11, // عدد عناصر التبويب
+          length: 11, 
           child: Scaffold(
             appBar: PreferredSize(
               preferredSize: Size.fromHeight(140.h),
@@ -56,10 +56,9 @@ class HomeScreenDesktop extends StatelessWidget {
                     labelPadding: EdgeInsets.zero,
                     dividerColor: Colors.transparent,
                     indicator: BoxDecoration(
-                      color: ConstantColors.green, // تعيين لون الخلفية للمؤشر
+                      color: ConstantColors.green,
                       borderRadius: BorderRadius.circular(10.r),
                     ),
-                    // unselectedLabelColor: const Color.fromARGB(255, 18, 109, 60),
                     tabs: const [
                       TabBarItemDesktop(title: 'All'),
                       TabBarItemDesktop(title: 'Not Done'),

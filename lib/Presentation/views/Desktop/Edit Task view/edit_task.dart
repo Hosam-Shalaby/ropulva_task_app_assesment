@@ -17,17 +17,8 @@ class EditTaskScreenDesktop extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return
-        // appBar: AppBar(
-        //   centerTitle: true,
-        //   title: const Text('Edit Task'),
-        //   leading: IconButton(
-        //     icon: const Icon(Icons.close, color: Colors.red),
-        //     onPressed: () => Navigator.of(context).pop(),
-        //   ),
-        // ),
-        SizedBox(
-      height: 320.h,
+    return SizedBox(
+      height: 280.h,
       width: 420.0,
       child: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -64,11 +55,8 @@ class EditTaskScreenDesktop extends StatelessWidget {
                 labelText: 'Task title',
                 border: OutlineInputBorder(
 
-                    // borderSide: BorderSide.none,
                     borderRadius: BorderRadius.all(Radius.circular(15.r))),
-                // تغيير لون النص للون أزرق
               ),
-              // تغيير لون النص للون أزرق
             ),
             SizedBox(
               height: 20.h,
@@ -79,7 +67,6 @@ class EditTaskScreenDesktop extends StatelessWidget {
               decoration: InputDecoration(
                 labelText: 'Due Date',
                 border: OutlineInputBorder(
-                    // borderSide: BorderSide.none,
                     borderRadius: BorderRadius.all(Radius.circular(15.r))),
               ),
               onTap: () async {

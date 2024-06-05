@@ -16,7 +16,6 @@ class TaskWidgetDesktop extends StatelessWidget {
       children: [
         SizedBox(
           height: 100.h,
-          // padding: const EdgeInsets.only(bottom: 400.),
           width: 300.w,
           child: Card(
             elevation: 5,
@@ -28,7 +27,6 @@ class TaskWidgetDesktop extends StatelessWidget {
               ),
               subtitle: Text(
                 'Due Date: ${DateFormat('E yyyy-MM-dd ').format(task.dueDate)}',
-                // style: const TextStyle(color: Colors.black),
               ),
               trailing: Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
